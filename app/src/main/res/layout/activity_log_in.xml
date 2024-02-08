@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tealLi"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LogIn">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="315dp"
+        android:layout_height="286dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="45dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/app_logo"
+        android:layout_marginTop="29dp"
+
+        android:background="@drawable/edt_background"
+        android:hint="@string/email"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/app_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:autofillHints=""
+        android:background="@drawable/edt_background"
+        android:hint="@string/password"
+        android:paddingStart="13dp" />
+
+
+
+    <Button
+        android:id="@+id/button_log_in"
+        android:layout_width="188dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edit_pass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="116dp"
+        android:background="@drawable/but_bacground"
+        android:text="@string/log_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/button_sign_in"
+        android:layout_width="188dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/button_log_in"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginEnd="120dp"
+        android:background="@drawable/but_background_sign"
+        android:text="@string/go_to_sign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"/>
+
+</RelativeLayout>

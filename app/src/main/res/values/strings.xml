@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ChatClientAndroidKotlin</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="password">Password</string>
+    <string name="edit_text_message_hint">Type your message here</string>
+    <string name="buttonSend">Send</string>
+    <string name="chat_text_view">No messages yet</string>
+    <string name="socket_host">172.16.1.125</string>
+    <string name="socket_port">2727</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="sended_messages">Sended messages</string>
+    <string name="received_messages">Received messages</string>
+    <string name="email">email</string>
+    <string name="log_in">log in</string>
+    <string name="go_to_sign">go to sign</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="send">send</string>
+
+</resources>
